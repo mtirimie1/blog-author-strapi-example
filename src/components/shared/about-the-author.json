@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_about_the_authors",
+  "info": {
+    "displayName": "About the Author",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "Tagline": {
+      "type": "text"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    }
+  }
+}

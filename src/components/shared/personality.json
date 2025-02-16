@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_personalities",
+  "info": {
+    "displayName": "Personality",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "Energy": {
+      "type": "enumeration",
+      "enum": [
+        "Introverted",
+        "Extroverted"
+      ]
+    },
+    "Mind": {
+      "type": "enumeration",
+      "enum": [
+        "Intuitive",
+        "Observant"
+      ]
+    },
+    "Nature": {
+      "type": "enumeration",
+      "enum": [
+        "Thinking",
+        "Feeling"
+      ]
+    },
+    "Tactics": {
+      "type": "enumeration",
+      "enum": [
+        "Judging",
+        "Prospecting"
+      ]
+    }
+  }
+}

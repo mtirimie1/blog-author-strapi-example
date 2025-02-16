@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_medias",
+  "info": {
+    "singularName": "social-media",
+    "pluralName": "social-medias",
+    "displayName": "Social Media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Instagram": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "personalLinks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.link"
+      ]
+    }
+  }
+}
